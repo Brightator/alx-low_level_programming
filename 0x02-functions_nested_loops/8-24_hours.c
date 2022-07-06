@@ -7,6 +7,7 @@
 void jack_bauer(void)
 {
 	int hr, min;
+
 	hr = 0;
 	while (hr < 24)
 	{
