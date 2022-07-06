@@ -4,8 +4,8 @@
  * Auth: Dr Marcus Imagwe
  */
 
-#include <stdio.h>
 
+#include <stdio.h>
 /**
  * print_to_98 - print to 98
  *
