@@ -1,7 +1,5 @@
 /*
  * File: 9-times_table.c
- *
- * Auth: Dr Imagwe Marcus
  */
 
 

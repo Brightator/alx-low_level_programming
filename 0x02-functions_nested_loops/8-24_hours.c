@@ -1,7 +1,5 @@
 /*
  * File: 8-24_hours.c
- *
- * Auth: Dr Imgawe Marcus
  */
 
 
