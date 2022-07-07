@@ -15,11 +15,13 @@
  */
 void print_to_98(int n)
 {
+	/* increment iteration var */
 	while (n < 98)
 	{
 		printf("%i, ", n);
 		n++;
 	}
+	/* decrement iteration var */
 	while (n > 98)
 	{
 		printf("%i, ", n);
