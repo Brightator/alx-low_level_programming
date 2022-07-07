@@ -3,7 +3,7 @@
 
 
 /**
- * main - check the code.
+ * main - Times table.
  *
  * Return: Always 0.
  */
