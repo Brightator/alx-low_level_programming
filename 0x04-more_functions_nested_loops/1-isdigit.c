@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * _isdigit() - checks if loop is digit
+ * _isdigit - checks if loop is digit
+ *
+ * @c: character
  *
  * Return: Always 0 or 1
  */
