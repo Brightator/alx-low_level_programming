@@ -1,4 +1,4 @@
-#include "man.h"
+#include "main.h"
 
 /**
  * print_most_numbers - To print numbers
