@@ -3,13 +3,13 @@
 /**
  * mul - multiplies two numbers
  *
- * @a: character a
- * @b: character b
+ * @a: integer a
+ * @b: integer b
  *
  * Return: product
  */
 
 int mul(int a, int b);
 {
-	_putchar("%d", a * b);
+	return (a * b);
 }
