@@ -10,8 +10,10 @@
 /* checks for uppercase */
 int _isupper(int c)
 {
+	char c;
+
 	/* conditions for uppercase */
-	if (c == _isupper(c))
+	if (c == _isupper("%c", c))
 		return (1);
 	else
 		return (0);
