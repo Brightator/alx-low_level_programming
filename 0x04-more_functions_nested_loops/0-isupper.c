@@ -1,4 +1,5 @@
 #include "main.h"
+#include <studio.h>
 /**
  * _isupper - uppercase letters
  *
@@ -7,13 +8,9 @@
  * Return: 0 or 1
  */
 
-/* checks for uppercase */
 int _isupper(int c)
 {
-	char c;
-
-	/* conditions for uppercase */
-	if (c == _isupper("%c", c))
+	if (c == toupper(c))
 		return (1);
 	else
 		return (0);
