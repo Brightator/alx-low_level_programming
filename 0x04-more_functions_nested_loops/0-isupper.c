@@ -1,17 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - check the code.
+ * main - _isupper.
  *
- * Return: Always 0.
+ * Return: either 1 or 0.
  */
-int main(void)
+int _isupper(int c)
 {
-	char c;
-
-	c = 'A';
-	_putchar("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	_putchar("%c: %d\n", c, _isupper(c));
-	return (0);
+	if (c == _isupper(c))
+		return (1);
+	else
+		return (0);
 }
