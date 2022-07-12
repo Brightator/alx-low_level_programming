@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - a pointer to an int
  *
- * @n: a variable
+ * @*n: a variable
  *
  * Return: Always 98
  */
