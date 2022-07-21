@@ -1,14 +1,11 @@
 #include "main.h"
-
 /**
- * _puts_recursion - prints a string
+ * _puts_recursion - a function that prints a string
  *
  * @s: the argument
  *
- * Return: Always 0.
- *
+ * Return: the 0 value
  */
-
 void _puts_recursion(char *s)
 {
 	if (*s)
