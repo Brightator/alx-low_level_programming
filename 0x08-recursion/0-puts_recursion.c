@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - prints a string
  *
- *
+ * @s: the argument
  *
  * Return: Always 0.
  *
@@ -11,7 +11,13 @@
 
 void _puts_recursion(char *s)
 {
-	    _putchar("Puts with recursion\n");
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion("Puts with recursion");
+	}
+	else
+		_putchar('\n')
 
 	        return (0);
 }
