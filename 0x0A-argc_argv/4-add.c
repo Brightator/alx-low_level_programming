@@ -7,11 +7,11 @@
  *
  * Return: 0 if no errors, else
  */
- 
-int main(int argc, char *argv[])
+ int main(int argc, char *argv[])
 {
-	int i, j, sum = 0;
-
+	int i, j, 
+	 
+	sum = 0;
 	if (argc < 1)
 		printf("0\n");
 
