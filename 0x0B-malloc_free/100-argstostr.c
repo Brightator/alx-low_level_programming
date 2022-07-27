@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * argstostr -  this concatenates all the arguments of your program
+ * argstostr -  concatenates all the arguments of your program
  *
  * @ac: grid to free the previous
  * @av: height of grid
@@ -38,4 +38,5 @@ char *argstostr(int ac, char **av)
 	}
 	s[k] = '\0';
 	return (s);
+
 }
