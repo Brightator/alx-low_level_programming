@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * str_concat - this concatenates two strings.
+ * str_concat - concatenates two strings.
  *
  * @s1: string one
  * @s2: string two
@@ -21,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		for (i = 0; s1[i]; ++i)
 			;
-    
+
 	}
 	if (s2 == NULL)
 	{
