@@ -1,8 +1,9 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 #define SIZE 1024
 
 /**
- * main - check the code
+ * main - fxn impliments the macro SIZE
  *
  * Return: Always 0.
  */
