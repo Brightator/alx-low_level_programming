@@ -12,5 +12,6 @@
 void print_name(char *name, void (*f)(char *))
 {
 	if (name != '\n'&& f != 0)
+		
 		f(name);
 }
